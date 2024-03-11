@@ -1,6 +1,6 @@
 import axios from "axios";
 export const api = axios.create({
-  baseURL: import.meta.env.VITE_API_KEY,
+  baseURL: "https://teletech24-admin.onrender.com",
   headers: {
     "Content-Type": "application/json",
   },
